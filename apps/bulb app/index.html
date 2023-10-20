@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Light Bulb app</title>
+            <!-- Add the Bootstrap CSS file to your HTML page -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+            <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Create a back button with a dark appearance using the Bootstrap classes -->
+    <style>
+    .bottom-center-button {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    </style>
+    
+    <!-- Dat epic moment na hindi ko mahanap yung button, di pala nacode hshahshaha -->
+    <button type="button" class="btn btn-outline-light bottom-center-button" onclick="history.go(-1)">Back</button>
+
+    <div class="wrapper">
+      <input type="checkbox" id="btn">
+      <img id="bulb-off" src="bulb-off.png">
+      <img id="bulb-on" src="bulb-on.png">
+      <label for="btn" class="btn">
+        <span></span>
+      </label>
+    </div>
+  </body>
+</html>
