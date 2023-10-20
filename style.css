@@ -203,7 +203,7 @@ body {
 .footer {
   background-color: #1c1c1c;
   color: #fff;
-  padding: 10px;
+  padding: 8px;
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -219,8 +219,8 @@ body {
 }
 
 .footer h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 8px;
+  margin-bottom: 8px;
 }
 
 .footer p {
@@ -254,7 +254,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .search-bar input {
@@ -280,5 +280,5 @@ body {
 }
 
 .search-bar i {
-  font-size: 14px;
+  font-size: 9px;
 }
